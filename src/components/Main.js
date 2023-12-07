@@ -82,6 +82,7 @@ const CursorImage = styled.img`
   }
   &.inactive {
     opacity: 0.7;
+    filter: blur(5px);
   }
   &.state3.active ~ .dummy {
     display: block;
